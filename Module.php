@@ -2,10 +2,12 @@
 
 namespace SeoUrl;
 
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
+use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
-class Module
+class Module implements
+    AutoloaderProviderInterface,
+    ConfigProviderInterface
 {
     public function getConfig()
     {
