@@ -1,5 +1,5 @@
 {
-    "name": "cyrkulewski/seo-url",
+    "name": "al3xdm/seo-url",
     "description": "Module converts any string to valid URL",
     "license": "MIT",
     "authors": [
@@ -27,5 +27,8 @@
         "classmap" : [
             "./Module.php"
         ]
+    },
+    "replace": {
+        "martyshka/seo-url": "*"
     }
 }
