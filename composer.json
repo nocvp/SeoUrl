@@ -25,11 +25,8 @@
     },
     "autoload" : {
         "psr-0" : {
-            "SeoUrl" : "src"
-        },
-        "classmap" : [
-            "./Module.php"
-        ]
+            "SeoUrl" : "src/"
+        }
     },
     "replace": {
         "martyshka/seo-url": "*"
